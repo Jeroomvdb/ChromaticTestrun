@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_e3dbdfed608847c"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -36,7 +37,9 @@
     "trailingComma": "es5"
   },
   "name": "chromatictestrun",
-  "author": "Jeroomvdb",
+  "author": {
+    "name": "Jeroomvdb"
+  },
   "module": "dist/chromatictestrun.esm.js",
   "size-limit": [
     {
@@ -63,6 +66,7 @@
     "@storybook/testing-library": "^0.2.1",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
+    "chromatic": "^7.2.0",
     "husky": "^8.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -71,5 +75,7 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "chromatictestrun@0.1.0"
 }
